@@ -800,8 +800,9 @@ GameObject:
   - component: {fileID: 995761074}
   - component: {fileID: 995761076}
   - component: {fileID: 995761075}
+  - component: {fileID: 995761077}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: MainMenuScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -868,6 +869,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995761073}
   m_CullTransparentMesh: 1
+--- !u!114 &995761077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995761073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe08ac2862a24c3fbbb3c1e14d3a19a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startButton: {fileID: 516032528}
+  settingsButton: {fileID: 2076372749}
+  exitButton: {fileID: 814519544}
 --- !u!1 &1236826157
 GameObject:
   m_ObjectHideFlags: 0
